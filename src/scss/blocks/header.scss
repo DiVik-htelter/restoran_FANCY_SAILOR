@@ -1,0 +1,96 @@
+body {
+  background-color: $white;
+}
+.wrapper {
+  display: none;
+  
+}
+.header{
+  position: relative;
+  width: 100%;
+  height: 800px;
+  text-transform: uppercase;
+  font-family: $os, sans-serif;
+  background-image: url('../../img/header-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+}
+.container{
+  position: relative;
+}
+.logo_header {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  text-align: flex-start;
+
+}
+.punkt{  
+  width: 133px;
+  height: 100px;
+  background: none;
+}
+
+.title_header{
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  top: 20%;
+}
+.h1_title {
+  position: relative;
+  height: 139px;
+
+  font-family: $acme;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+
+  text-align: center;
+}
+.restoran_t{
+  height: 50%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.5em;
+
+  text-align: center;
+}
+.line{
+  display:flex;
+  justify-content: center;
+
+}
+.rectangle {
+  background: $yellow;
+  border: none;
+  width: 60px;
+  height: 5.11px;
+  border-radius: 50px;
+}
+
+.button_head{
+  position: absolute;
+  display: flex;
+  grid-gap: 60px;
+  width: 100%;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.explore {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: none;
+}

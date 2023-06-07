@@ -1,0 +1,27 @@
+
+.specialties {
+  position:relative;
+  height: 100px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  /* or 117% */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+.main_bg {
+  position: relative;
+  height: 675px;
+  width: 100%;
+  font-family: $os;
+  color: $white;
+  background-image: url('../../img/second-bg.png');
+}
